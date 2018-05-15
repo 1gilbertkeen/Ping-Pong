@@ -12,14 +12,23 @@
 
 .container {
     font-size: 1.4em;
-    background-color: grey;
+    background-color:gainsboro;
 }
 
 .side {
-    height: 50%;
+    height: 100%;
     background-color: lightgreen;
 }
 
-h3{
+h3 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.datacollected {
+    font-weight: normal;
 }
