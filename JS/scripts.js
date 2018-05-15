@@ -10,3 +10,16 @@ $(document).ready(function() {
         counter = 1;
     });
 });
+
+//Business Logic
+function generate() {
+    while(counter <= number){
+        if (((counter % 3)==0 && ((counter % 5)==0)){
+            $(".datacollected").append("<li>pingpong</li>")
+        }
+        else if ((counter % 3)==0){
+            $(".datacollected").append("<li>ping</li>")
+        }
+        else if ((counter))
+    }
+}
