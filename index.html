@@ -1,14 +1,45 @@
-<!Doctype <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ping Pong</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css"  href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" >
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h1>Ping Pong!</h1>
+        </div>
+        <div class="row">
+            <div class=" green col col-sm-12 col-md-3 col-lg-2">
+                <h2>About Ping Pong</h2>
+                <h3>Created By</h3>
+                <p>Gilbert Keen</p>
+                <h3>Github</h3>
+                <a href="https://github.com/theekeen/Ping-Pong">The Repository</a>
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10">
+                <h2>Let's Play</h2>
+                <h3>Rules</h3>
+                <p>Ping Pong will count your number from 1 with the following exception</p>
+                <ul>
+                    <li>Numbers that are divisible by 3 are replaced by "ping"</li>
+                    <li>Numbers that are divisible by 5 are  replaced by "pong"</li>
+                    <li> Numbers that are divisible by 15 are replaced by "pingpong"</li>
+                </ul>
+                <label for="text">Enter your number here:</label>
+                    <input id="txt" type="text">
+                    <input id="btn" class="btn btn-success" type="button" value="Ping Pong">
+                    <ul class="data">
+
+                    </ul> 
+            </div>
+        </div>
+    </div>
+    <script src="JS/jQuery.js"></script>
+    <script src="JS/scripts.js"></script>
 </body>
 </html>
