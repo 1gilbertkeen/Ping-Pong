@@ -1,16 +1,12 @@
-<script>
-function fizzBuzz(number){
-    var numbers=[]
-    for (var i=0;i<100;i++){
-    if((i%3===0)&&(i%5===0)){
-        numbers.push("FizzBuzz");
-    }
-    else if(1%5===0){
-        numbers.push("buzz");
-    }  
-    else if(1%3===0){
-        numbers.push("fizz");
-        }
-    else{
-        numbers.push(i);
-}}}
+var number;
+var counter = 1;
+//User Interface
+$(document).ready(function() {
+    $("#btn").click(function() {
+        number = parseFloat($("#txt") .val());
+        $(".datacollected").text("");
+        generate();
+        $("#txt").val("");
+        counter = 1;
+    });
+});
