@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/styles.css" >
 </head>
 <body>
+    <img src="Ping-Pong.jpeg" alt="Ping-Pong image">
     <div class="container">
         <div class="header">
             <h1>Ping Pong!</h1>
@@ -30,12 +31,16 @@
                     <li>Numbers that are divisible by 5 are  replaced by "pong"</li>
                     <li> Numbers that are divisible by 15 are replaced by "pingpong"</li>
                 </ul>
-                <label for="text">Enter your number here:</label>
-                    <input id="txt" type="text">
-                    <input id="btn" class="btn btn-success" type="button" value="Ping Pong">
-                    <ul class="datacollected">
+                <form id="pingpong" class="form-inline">
+                    <div class="form-group">
+                        <label for="number">Please enter your number here</label>
+                        <input id="number" type="text">
+                    </div>
+                    <button type="submit" id="btn">Ping Pong</button>
+                </form>
+                <ul id="outcome">
 
-                    </ul> 
+                </ul>
             </div>
         </div>
     </div>
